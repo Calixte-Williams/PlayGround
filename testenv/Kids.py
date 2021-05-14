@@ -29,7 +29,7 @@ children = "Tommy"
 print(children[0:2])
 print("Jack" + children * 5)
 
-# To initialize a list in an empty state
+# To initialize a "list" variable in an empty state.
 emptylist = []
 emptylist2 = list()
 
