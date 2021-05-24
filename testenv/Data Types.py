@@ -58,3 +58,25 @@ print(person[0])
 #However it can be used to assign a set variables quickly
 (x, y, z) = (12, 'Fred', 18)
 print(z)
+
+#A "Dictionary" provides another way of creating a collection of items.
+cabinet = { "scores": (98,76,95), "name":"Crhis", "company" : "Cisco"}
+print(type(cabinet))
+print(cabinet)
+print(cabinet["scores"])
+
+#Adding more Keys and Values to a Dictionary.
+cabinet["address"] = {"street":"123 Anywhere Dr", "city":"Franklin"}
+print(cabinet)
+
+#Sets : These are mutable data types that can be made immutable using "Frozen Sets"
+numbs = {1,2,4,5,6,8,10}
+odds = {1,3,5,7,9}
+print(type(numbs))
+print(type(odds))
+
+#You can use "|" operator to show a combined set with no duplicates.
+print(numbs | odds)
+
+# You can use "&" operator to show an intersection of two sets and what numbers are in both sets
+print(numbs & odds)
