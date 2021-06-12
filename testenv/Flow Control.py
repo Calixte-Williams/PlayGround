@@ -1,5 +1,8 @@
 # Conditionals and Loops
 #IF
+from typing import Counter
+
+
 n = 20
 if n == 20:
     print("The number is 20")
@@ -26,3 +29,19 @@ for x in range(1,3):    # range(x, x) is used to indicate the number to start fr
     print(x)
 for x in range(1,11,3):     # A third attribute can be added to specify the increments to count by.
     print(x)
+
+# While Loops
+count = 1
+while (count < 5):
+    print("Loop count is:", count)
+    count = count + 1
+else:
+    print("Loop is finished")
+
+# Using "break" to Exit a loop
+while True:
+    string = input('Enter some test to print. \nType "done" to quit> ')
+    if string == 'done' :
+        break
+    print(string)
+print('Done!')
