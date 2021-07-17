@@ -39,7 +39,7 @@ else:
     print("Loop is finished")
 
 # Using "break" to Exit a loop
-while True:
+while True:    #Notice the condition being checked against is "True", as such the condition will always be true and the loop infinite
     string = input('Enter some test to print. \nType "done" to quit> ')
     if string == 'done' :
         break
