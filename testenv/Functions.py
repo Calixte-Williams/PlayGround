@@ -11,4 +11,7 @@ def devnet():
     #prints simple function
     print('Simple function')
 
-devnet
+devnet()
+
+help(devnet)
+#Used to learn what a Function does from the Docstring aka ''' xxx ''' section.
